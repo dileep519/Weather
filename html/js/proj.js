@@ -30,21 +30,21 @@ function dothis(z){
         var  image;
         switch(result.weather[0].main){
             case 'Clear':
-                image='url("sunny.jpg")';
+                image='url("./html/images/sunny.jpg")';
                 break;
             case 'Clouds':
-                image='url("Cloudy.jpg")';
+                image='url("./html/images/Cloudy.jpg")';
                 break;
             case 'Mist':
             case 'Rain':
             case 'Drizzle':
-                image='url("rain.jpg")';
+                image='url("./html/images/rain.jpg")';
                 break;
             case 'Thunderstrom':
-                image='url("lightning.jpg")';
+                image='url("./html/images/lightning.jpg")';
                 break;
             case 'snow':
-                image='url("snow.jpg")';
+                image='url("./html/images/snow.jpg")';
                 break;
             default:
                 break;
